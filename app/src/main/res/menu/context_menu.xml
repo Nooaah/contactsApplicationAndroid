@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/suppression"
+        android:title="@string/Supression_ligne" />
+    <item
+        android:id="@+id/Appel"
+        android:title="@string/Contexte_Appel" />
+    <item
+        android:id="@+id/SMS"
+        android:title="@string/Contexte_SMS" />
+    <item
+        android:id="@+id/CONMAIL"
+        android:title="@string/Contexte_EMAIL" />
+    <item
+        android:id="@+id/CONADD"
+        android:title="@string/Contexte_Localisation" />
+    <item
+        android:id="@+id/CONMODIF"
+        android:title="@string/Contexte_Modification" />
+</menu>

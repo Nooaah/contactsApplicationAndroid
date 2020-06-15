@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ChatelainHeumelContacts</string>
+    <string name="action_fav">Afficher favoris</string>
+    <string name="Content_main_name">Contacts</string>
+    <string name="Content_main_add">Ajouter</string>
+    <string name="title_activity_ajout">Nouveau Contact</string>
+    <string name="Content_Ajout_nom">Nom</string>
+    <string name="Content_Ajout_prenom">Prénom</string>
+    <string name="Content_Ajout_telephone">Téléphone</string>
+    <string name="Content_Ajout_mail">E-mail</string>
+    <string name="Content_Ajout_addresse">Adresse</string>
+    <string name="Content_Ajout_favoris">Favori</string>
+    <string name="Content_Ajout_confimer">Enregistrer</string>
+    <string name="Supression_ligne">Supprimer</string>
+    <string name="ok">Ok</string>
+    <string name="No">Quitter</string>
+    <string name="Contexte_Appel">Appeler</string>
+    <string name="Contexte_SMS">Envoyer un SMS</string>
+    <string name="Contexte_EMAIL">Envoyer un E-mail</string>
+    <string name="Contexte_Localisation">Rechercher adresse</string>
+    <string name="Contexte_Modification">Modification</string>
+    <string name="title_activity_vision">Fiche Contact</string>
+    <string name="InfoNom">Nom :</string>
+    <string name="InfoPrenom">Prenom :</string>
+    <string name="InfoTelephone">Telephone :</string>
+    <string name="InfoMail">E-Mail :</string>
+    <string name="Info_Adresse">Adresse :</string>
+    <string name="InfoFavoris">Favoris :</string>
+    <string name="title_activity_envoie">Envoyer un sms</string>
+    <string name="Envoyer_message">Envoyer</string>
+    <string name="title_activity_modification">Modifier le contact</string>
+    <string name="AllStars">Afficher tout</string>
+    <string name="QR">Scanner un QRCode</string>
+    <string name="title_activity_crea_qrcode">QRCode</string>
+    <string name="title_activity_scan_qrcode">Scanner un QRCode</string>
+    <string name="Scan">Scanner</string>
+</resources>

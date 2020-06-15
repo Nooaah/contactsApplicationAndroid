@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="decalx">125dp</dimen>
+    <dimen name="decaly">-22dp</dimen>
+    <dimen name="box_size">286dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+
+
+</resources>

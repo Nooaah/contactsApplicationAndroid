@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Information_Nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/InfoNom"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/fillNom"
+        android:layout_width="@dimen/box_size"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/text_size"
+        android:translationX="@dimen/decalx"
+        android:translationY="@dimen/decaly" />
+
+    <TextView
+        android:id="@+id/Information_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/InfoPrenom"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/fillPrenom"
+        android:layout_width="@dimen/box_size"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/text_size"
+        android:translationX="@dimen/decalx"
+        android:translationY="@dimen/decaly" />
+
+    <TextView
+        android:id="@+id/Information_telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/InfoTelephone"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/fillTelephone"
+        android:layout_width="@dimen/box_size"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/text_size"
+        android:translationX="@dimen/decalx"
+        android:translationY="@dimen/decaly" />
+
+    <TextView
+        android:id="@+id/Information_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/InfoMail"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/fillMail"
+        android:layout_width="@dimen/box_size"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/text_size"
+        android:translationX="@dimen/decalx"
+        android:translationY="@dimen/decaly" />
+
+    <TextView
+        android:id="@+id/Information_adresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Info_Adresse"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/fillAdresse"
+        android:layout_width="@dimen/box_size"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/text_size"
+        android:translationX="@dimen/decalx"
+        android:translationY="@dimen/decaly" />
+
+    <TextView
+        android:id="@+id/Information_favoris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/InfoFavoris"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/fillFavoris"
+        android:layout_width="@dimen/box_size"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/text_size"
+        android:translationX="@dimen/decalx"
+        android:translationY="@dimen/decaly" />
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ChatelainHeumelContacts.Activity_vision"
+    tools:showIn="@layout/activity_vision">
+
+    <ListView
+        android:id="@+id/listInformation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fonctionMail" />
+
+    <ImageButton
+        android:id="@+id/functionAppel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:onClick="appel"
+        app:layout_constraintEnd_toStartOf="@+id/fonctionMail"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <ImageButton
+        android:id="@+id/fonctionMail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:onClick="mail"
+        app:layout_constraintEnd_toStartOf="@+id/fonctionMessage"
+        app:layout_constraintStart_toEndOf="@+id/functionAppel"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <ImageButton
+        android:id="@+id/fonctionMessage"
+        android:layout_width="59dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:onClick="sms"
+        app:layout_constraintEnd_toStartOf="@+id/FonctionLocalisation"
+        app:layout_constraintStart_toEndOf="@+id/fonctionMail"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/stat_notify_chat" />
+
+    <ImageButton
+        android:id="@+id/FonctionLocalisation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:onClick="localisation"
+        app:layout_constraintEnd_toStartOf="@+id/FonctionModification"
+        app:layout_constraintStart_toEndOf="@+id/fonctionMessage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_map" />
+
+    <ImageButton
+        android:id="@+id/FonctionModification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:onClick="modif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/FonctionLocalisation"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="55dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:drawableBottom="@android:drawable/ic_menu_share"
+        android:onClick="creer"
+        app:layout_constraintEnd_toStartOf="@+id/functionAppel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
